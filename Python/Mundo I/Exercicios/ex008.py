@@ -1,4 +1,4 @@
-metro = float(input('Escreva uma distância em metros: '))
+metro =float(input('Escreva uma distância em metros: ').strip())
 km = metro / 1000
 hm = metro / 100
 dam = metro / 10
